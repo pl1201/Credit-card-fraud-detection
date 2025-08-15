@@ -1,9 +1,10 @@
 Credit Card Fraud Detection with Random Forest
+________________________________________________________________________________________
 🎯 Mục tiêu
 
 Dự đoán xem một giao dịch thẻ tín dụng có phải gian lận hay không bằng mô hình Random Forest.
 Dữ liệu có tỷ lệ gian lận cực thấp (~0.17%), gây khó khăn cho việc huấn luyện mô hình → cần áp dụng kỹ thuật xử lý mất cân bằng.
-
+________________________________________________________________________________________
 📁 Dataset
 
 Nguồn: Kaggle - Credit Card Fraud Detection
@@ -15,7 +16,7 @@ Số lượng: 284,807 dòng, trong đó 492 giao dịch gian lận
 - Dữ liệu đã được PCA ẩn danh (V1 → V28)
 
 - Thêm 2 cột: Time và Amount
-
+_________________________________________________________________________________________
 🔄 Pipeline xử lý
 
 - Khám phá dữ liệu (EDA) – thống kê mô tả, phân phối dữ liệu
@@ -33,7 +34,7 @@ Số lượng: 284,807 dòng, trong đó 492 giao dịch gian lận
 - Chọn mô hình tốt nhất – dựa trên PR-AUC
 
 - Tối ưu tham số – dùng GridSearchCV
-
+_________________________________________________________________________-
   Điều chỉnh threshold phân loại – cân bằng precision và recall
    . Trực quan hóa: matplotlib, seaborn
    . Machine Learning: scikit-learn
