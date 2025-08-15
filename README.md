@@ -12,32 +12,30 @@ Số lượng: 284,807 dòng, trong đó 492 giao dịch gian lận
 
 Đặc điểm:
 
-Dữ liệu đã được PCA ẩn danh (V1 → V28)
+- Dữ liệu đã được PCA ẩn danh (V1 → V28)
 
-Thêm 2 cột: Time và Amount
+- Thêm 2 cột: Time và Amount
 
 🔄 Pipeline xử lý
 
-Khám phá dữ liệu (EDA) – thống kê mô tả, phân phối dữ liệu
+- Khám phá dữ liệu (EDA) – thống kê mô tả, phân phối dữ liệu
 
-Trực quan hóa dữ liệu – histograms, correlation heatmap, PCA projection
+- Trực quan hóa dữ liệu 
 
-Tiền xử lý – scale Amount, chuẩn hóa Time
+- Tiền xử lý – scale Amount, chuẩn hóa Time
 
-Xử lý mất cân bằng –
+- Xử lý mất cân bằng: RandomUnderSampling, SMOTE, kết hợp cả 2
 
-Undersampling
+- Huấn luyện mô hình – Logistic Regression, Random Forest, XGBoost, Gradient Boosting
 
-SMOTE
+- Đánh giá mô hình – ROC, PR curve, confusion matrix
 
-Kết hợp cả hai
+- Chọn mô hình tốt nhất – dựa trên PR-AUC
 
-Huấn luyện mô hình – Logistic Regression, Random Forest, XGBoost
+- Tối ưu tham số – dùng GridSearchCV
 
-Đánh giá mô hình – ROC, PR curve, confusion matrix
-
-Chọn mô hình tốt nhất – dựa trên PR-AUC
-
-Tối ưu tham số – dùng GridSearchCV
-
-Điều chỉnh threshold phân loại – cân bằng precision và recall
+  Điều chỉnh threshold phân loại – cân bằng precision và recall
+   . Trực quan hóa: matplotlib, seaborn
+   . Machine Learning: scikit-learn
+   . Mất cân bằng: imbalanced-learn (SMOTE, RandomUnderSampler)
+   . Đánh giá: ROC-AUC, PR-AUC, F1, Recall, Confusion Matrix, Classification Report
