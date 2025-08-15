@@ -34,9 +34,9 @@ ________________________________________________________________________________
 - Chọn mô hình tốt nhất – dựa trên PR-AUC
 
 - Tối ưu tham số – dùng GridSearchCV
-_________________________________________________________________________-
+________________________________________________________________________________________________
   Điều chỉnh threshold phân loại – cân bằng precision và recall
-   . Trực quan hóa: matplotlib, seaborn
-   . Machine Learning: scikit-learn
-   . Mất cân bằng: imbalanced-learn (SMOTE, RandomUnderSampler)
-   . Đánh giá: ROC-AUC, PR-AUC, F1, Recall, Confusion Matrix, Classification Report
+   - Trực quan hóa: matplotlib, seaborn
+   - Machine Learning: scikit-learn
+   - Mất cân bằng: imbalanced-learn (SMOTE, RandomUnderSampler)
+   - Đánh giá: ROC-AUC, PR-AUC, F1, Recall, Confusion Matrix, Classification Report
