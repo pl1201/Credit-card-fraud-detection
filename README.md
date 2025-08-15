@@ -19,23 +19,18 @@ Số lượng: 284,807 dòng, trong đó 492 giao dịch gian lận
 _________________________________________________________________________________________
 🔄 Pipeline xử lý
 
-- Khám phá dữ liệu (EDA) – thống kê mô tả, phân phối dữ liệu
-
+- Khm phá dữ liệu (EDA) – thống kê mô tả, phân phối dữ liệu
 - Trực quan hóa dữ liệu 
-
 - Tiền xử lý – scale Amount, chuẩn hóa Time
-
 - Xử lý mất cân bằng: RandomUnderSampling, SMOTE, kết hợp cả 2
-
 - Huấn luyện mô hình – Logistic Regression, Random Forest, XGBoost, Gradient Boosting
-
 - Đánh giá mô hình – ROC, PR curve, confusion matrix
-
 - Chọn mô hình tốt nhất – dựa trên PR-AUC
-
 - Tối ưu tham số – dùng GridSearchCV
-________________________________________________________________________________________________
-  Điều chỉnh threshold phân loại – cân bằng precision và recall
+- Điều chỉnh threshold phân loại – cân bằng precision và recall
+
+  ________________________________________________________________________________________________
+🔄 Công cụ sử dụng:
    - Trực quan hóa: matplotlib, seaborn
    - Machine Learning: scikit-learn
    - Mất cân bằng: imbalanced-learn (SMOTE, RandomUnderSampler)
